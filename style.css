@@ -10,3 +10,17 @@ body {
 	
 	background-color: #fff;
 }
+.main-navigation {
+ /* Временно для сетки */
+ min-height: 100px;
+ background-color: transparent;
+}
+.site-navigation {
+	width: 620px;
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+	
+	min-height: 70px;
+}
