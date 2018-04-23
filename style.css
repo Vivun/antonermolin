@@ -6,6 +6,7 @@ body {
 	line-height: 13px;
 	font-weight: 20px
 	background-color: #fff;
+	list-style: none;
 }
 
 a {
@@ -17,7 +18,37 @@ a {
 	line-height: 20px;
 	color: #304658;
 	
+	background-color: #2c414e;
 }
+
+.site-navigation,
+.user-navigation {
+	list-style: none;
+}
+
+.Contacts {
+	list-style: none;
+}
+
+.education
+.education-list {
+	list-style: none;
+}
+
+.skills
+.skills-list {
+	list-style: none;
+}
+
+.experience
+.experience-list {
+	list-style: none;
+}
+
+
+
+
+
 h1 {
 	font-family: Montserrat;
 	font-size: 36px;
