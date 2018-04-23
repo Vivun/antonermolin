@@ -47,7 +47,7 @@ a {
 
 .site-navigation a,
 .user-navigation a {
-	color: #000000;
+	color: #fff;
 }
 
 .site-navigation a:hover,
@@ -93,8 +93,10 @@ p {
 }
 
 .main-navigation {
- min-height: 100px;
- background-color: transparent;
+     min-height: 100px;
+     background-color: #000;
+	 align-items: center;
+ 
 }
 
 .site-navigation {
@@ -116,3 +118,4 @@ p {
 	margin: 0 auto;
 	padding: 0 10px;
 }
+
