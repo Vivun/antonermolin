@@ -93,10 +93,14 @@ p {
 }
 
 .main-navigation {
-     min-height: 100px;
+     min-height: 50px;
      background-color: #000;
 	 align-items: center;
- 
+}
+
+.main-navigation-wrapper .container {
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-navigation {
