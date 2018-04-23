@@ -37,7 +37,27 @@ a {
 
 .skills,
 .skills-list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
+}
+
+.skills {
+	margin: 0;
+	padding: 0;
+	width: 260px;
+}
+
+.education {
+	margin: 0;
+	padding: 0;
+	width: 260px;
+}
+
+.experience {
+	margin: 0;
+	padding: 0;
+	width: 260px;
 }
 
 .experience,
@@ -98,10 +118,6 @@ p {
 	 align-items: center;
 }
 
-.main-navigation-wrapper .container {
-	display: flex;
-	justify-content: space-between;
-}
 
 .site-navigation {
 	width: 620px;
@@ -118,8 +134,13 @@ p {
 }
 
 .container {
-	width: 940px;
+	width: 860px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 
+.index-columns {
+	padding: 50px 80px;
+	display: flex;
+	
+}
