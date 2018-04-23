@@ -30,23 +30,36 @@ a {
 	list-style: none;
 }
 
-.education
+.education,
 .education-list {
 	list-style: none;
 }
 
-.skills
+.skills,
 .skills-list {
 	list-style: none;
 }
 
-.experience
+.experience,
 .experience-list {
 	list-style: none;
 }
 
+.site-navigation a,
+.user-navigation a {
+	color: #000000;
+}
 
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color: #d5d5d5;
+}
 
+.feature-item: {
+	text-align: center;
+}
 
 
 h1 {
